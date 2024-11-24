@@ -1,4 +1,4 @@
-site_name: teste
+site_name: Arthur Portfolio
 site_url: 
 theme:
     name: material
@@ -64,8 +64,10 @@ theme:
           accent: lime
 
 nav:
-    - Introduction:
-        - Welcome: index.md
+    - Conheça-me:
+        - Sobre mim: index.md
+    - Curriculo: 
+        - Objetivo: curriculo/objetivo.md
 
 markdown_extensions:
     - md_in_html
@@ -81,5 +83,5 @@ markdown_extensions:
         permalink: "#"
 
 # Configuration
-repo_url: 
-repo_name: 
+repo_url: https://github.com/arthur-hagah/projeto-github
+repo_name: Arthur Portfolio
